@@ -1,3 +1,9 @@
+- Identify latest block (find -maxdepth 1 -name '*.json' | sort -t_ -nk2,2 | tail -n1)
+- Verify previous block of latest block (optimistic verification)
+- Verify if there's new block to generate, if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
+
+- From latest block, traverse into previous blocks (optionally to fully validate)
+
 gitrepo="ipfs/go-ipfs"
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-amd64.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz

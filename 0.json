@@ -1,0 +1,6 @@
+{
+	"commonchain-v": "1.0",
+        "type": "github-releases",
+        "gitrepo": "ipfs/go-ipfs",
+        "firstblock": "QmUZzg4E21CZvpb4wqtW36sgZD7VF5iJaEWneqn7QNJYbs"
+}

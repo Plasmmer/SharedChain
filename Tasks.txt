@@ -3,8 +3,6 @@
 - At checking version, display two - app and this commonchain, if it is identified
 - Check this commonchain type (also contain gitrepo if type is github-releases) and firstblock
 
-- From latest block, traverse into previous blocks (optionally to fully validate)
-
 gitrepo="ipfs/go-ipfs"
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-amd64.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz
@@ -21,3 +19,4 @@ gitrepo (user-org/repo)
 releasetag - curl --silent "https://api.github.com/repos/$gitrepo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'
 releasetagnov - curl --silent "https://api.github.com/repos/$gitrepo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c 2-
 
+- From latest block, traverse into previous blocks (optionally, to fully validate)

@@ -1,4 +1,3 @@
-- Identify latest block (find -maxdepth 1 -name '*.json' | sort -t_ -nk2,2 | tail -n1)
 - Verify previous block of latest block (optimistic verification)
 - Verify if there's new block to generate, if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
 

@@ -1,5 +1,5 @@
-- Verify previous block of latest block (optimistic verification)
-- Verify if there's new block to generate, if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
+- Validate latest block (fileURL vs. CID and prevblock)
+- Check if there's new block to generate, if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
 
 - From latest block, traverse into previous blocks (optionally to fully validate)
 

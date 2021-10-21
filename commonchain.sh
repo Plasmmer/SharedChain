@@ -8,6 +8,7 @@ commonchainversion="""
 """
 
 lastblock=$(find -maxdepth 1 -name '*.json' | sort -t_ -nk2,2 | tail -n1)
+prevblock="This feature isn't available yet."
 
 if [ "$1" = "" ]; then
    echo "$commonchainversion"
@@ -17,4 +18,12 @@ fi
 if [ "$1" = "latest" ]; then
    echo "Latest block is:"
    echo "$lastblock"
+   if [ "$2" = "validate" ]; then
+      echo "This feature isn't available yet."
+fi
+fi
+
+if [ "$1" = "previous" ]; then
+   echo "Previous block is:"
+   echo "$prevblock"
 fi

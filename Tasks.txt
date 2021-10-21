@@ -1,0 +1,16 @@
+gitrepo="ipfs/go-ipfs"
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-amd64.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm64.tar.gz
+
+gitrepo="wealdtech/ethereal"
+https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-amd64.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-arm64.tar.gz
+
+fields:
+gitrepo (user-org/repo)
+
+releasetag - curl --silent "https://api.github.com/repos/$gitrepo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'
+releasetagnov - curl --silent "https://api.github.com/repos/$gitrepo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c 2-
+

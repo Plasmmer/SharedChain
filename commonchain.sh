@@ -16,6 +16,9 @@ releasetagnov=$(curl --silent ""https://api.github.com/repos/\"$gitrepo\""/relea
 if [ "$1" = "" ]; then
    echo "$commonchainversion"
    echo "Type 'commonchain --help' (without quotes) to see a list of available commands."
+   echo "'gitrepo': $gitrepo" #test
+   echo "'releasetag': $releasetag" #test
+   echo "'releasetagnov': $releasetagnov" #test
 fi
 
 if [ "$1" = "latest" ]; then

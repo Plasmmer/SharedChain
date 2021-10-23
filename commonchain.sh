@@ -9,6 +9,9 @@ commonchainversion="""
 
 lastblock=$(find -maxdepth 1 -name '*.json' | sort -t_ -nk2,2 | tail -n1)
 prevblock="This feature isn't available yet."
+gitrepo=$(jq -r '.gitrepo' 0.json)
+releasetag=$(curl --silent ""https://api.github.com/repos/\"$gitrepo\""/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+releasetagnov=$(curl --silent ""https://api.github.com/repos/\"$gitrepo\""/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c 2-)
 
 if [ "$1" = "" ]; then
    echo "$commonchainversion"

@@ -35,7 +35,32 @@ if [ "$1" = "latest" ]; then
       echo "$lastblock"
 fi
    if [ "$2" = "validate" ]; then
-      echo "This feature isn't available yet."
+      echo "This feature isn't available yet. Or is?"
+      echo "Validating..."
+      echo "[1/2] Fresh URL vs. latest block's URL:"
+      filename=$(jq -r '.fileprefix' 0.json)$releasetag$(jq -r '.filesufix' 0.json)
+      freshurl="https://github.com/"$gitrepo"/releases/download/"$releasetag"/"$filename
+      if [ "$(jq -r '.url' $lastblock)" = "$freshurl" ]; then
+         echo "Done! There's a match!"
+         echo "Validation 1/2 passed."
+         echo "[2/2] latest block's URL vs. IPFS CID:"
+         echo "Downloading release file from Fresh URL..."
+         wget $freshurl
+         echo "Checking for package integrity..."
+#         if [ "$(ipfs add -q --only-hash ./$filename | ipfs cid base32)" = "$(jq -r '.ipfs' $lastblock)" ]
+         if [ "$(ipfs add -q --only-hash ./$filename)" = "$(jq -r '.ipfs' $lastblock)" ]
+            then
+               echo "CID/Hash is the same from requested and the downloaded file, so the download is ok."
+               #tar -xzf $filename
+               echo "Done! There's a match!"
+               echo "Validation 2/2 passed."
+               echo "The latest block seems valid! More checks will be added later."
+            else
+               echo "Requested CID/Hash $(jq -r '.ipfs' $lastblock) is different from the result: $(ipfs add -q --only-hash ./$filename). Your download is corrupt. Please try again."
+               echo "Validation 2/2 failed."
+fi
+         rm $filename
+fi
 fi
 fi
 

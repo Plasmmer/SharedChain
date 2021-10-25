@@ -37,7 +37,7 @@ fi
    if [ -f justupdated.now ]; then
       rm justupdated.now
       echo "This commonchain has been updated just now; from block $prevblock to $lastblock!"
-      echo "Its advisable to run 'commonchain latest validate' in order to verify this update is legit."
+      echo "Its advisable to run 'commonchain validate' in order to verify this update is legit."
       echo "--------------------"
 fi
    echo "$commonchainversion"
@@ -55,9 +55,6 @@ fi
    if [ "$2" = "--plain" ]; then
       echo "$lastblock"
 fi
-   if [ "$2" = "validate" ]; then
-      ./validate.sh
-fi
 fi
 
 if [ "$1" = "previous" ]; then
@@ -67,4 +64,8 @@ fi
    if [ "$2" = "--plain" ]; then
       echo "$prevblock"
 fi
+fi
+
+if [ "$1" = "validate" ]; then
+   ./validate.sh
 fi

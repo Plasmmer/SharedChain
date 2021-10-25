@@ -49,7 +49,6 @@ fi
 fi
 fi
 
-
 if [ "$1" = "previous" ]; then
    if [ "$2" = "" ]; then
       echo "Previous block is: $prevblock"

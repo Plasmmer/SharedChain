@@ -10,3 +10,12 @@ HTTP request sent, awaiting response... 200 OK
 Length: 26156481 (25M) [application/octet-stream]
 Saving to: ‘go-ipfs_v0.10.0_linux-amd64.tar.gz’
 
+go-ipfs_v0.10.0_lin  91%[=================>  ]  22.75M  1.65MB/s    in 11s     
+
+2021-10-25 01:21:55 (1.99 MB/s) - Read error at byte 23855285/26156481 (Input/output error). Retrying.
+
+--2021-10-25 01:21:56--  (try: 2)  https://github-releases.githubusercontent.com/21233191/5584f25a-18c7-431e-927e-4b430e6152ac?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20211025%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211025T040530Z&X-Amz-Expires=300&X-Amz-Signature=48e66dd8a4221c7688d07684e0a04c5bc0fbd1ddae23cfee3b443900d650b4ce&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=21233191&response-content-disposition=attachment%3B%20filename%3Dgo-ipfs_v0.10.0_linux-amd64.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.110.154|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-10-25 01:21:56 ERROR 403: Forbidden.
+

@@ -17,6 +17,7 @@ if [ "$lastblock" -ge "2" ]
       prevblock="Can't verify previous block because this commonchain is still at block 1. Wait until it reach block 2 or more."
 fi
 gitrepo="$(jq -r '.gitrepo' 0.json)"
+lastblocktag="$(jq -r '.tag' $lastblock.json)"
 releasetag="$(
   curl --silent "https://api.github.com/repos/$gitrepo/releases/latest" \
   | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'
@@ -26,15 +27,15 @@ releasetagnov="$(
   | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' \
   | cut -c 2-
 )"
-export nm && export vs && export commonchainversion && export lastblockpath && export lastblock && export prevblock && export gitrepo && export releasetag && export releasetag
+export nm && export vs && export commonchainversion && export lastblockpath && export lastblock && export prevblock && export gitrepo && export releasetag && export releasetag && export lastblocktag
 
 if [ "$1" = "" ]; then
    echo "$commonchainversion"
    echo "Type 'commonchain --help' (without quotes) to see a list of available commands."
    echo "--------------------"
    echo "gitrepo: $gitrepo" #test
-   echo "releasetag: $releasetag" #test
-   echo "releasetagnov: $releasetagnov" #test
+   echo "Latest registered release: $lastblocktag"
+   echo "Latest release:  $releasetag"
 fi
 
 if [ "$1" = "latest" ]; then

@@ -4,7 +4,6 @@
 - Check this commonchain type (also contain gitrepo if type is github-releases) and firstblock
 
 gitrepo="ipfs/go-ipfs"
-https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-amd64.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm64.tar.gz
@@ -12,6 +11,8 @@ https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_li
 gitrepo="wealdtech/ethereal"
 https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-amd64.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-arm64.tar.gz
+
+- Option to pin file
 
 - From latest block, traverse into previous blocks (optionally, to fully validate)
 

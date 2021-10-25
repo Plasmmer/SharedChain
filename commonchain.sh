@@ -38,8 +38,7 @@ fi
 
 if [ "$1" = "latest" ]; then
    if [ "$2" = "" ]; then
-      echo "Latest block is:"
-      echo "$lastblock"
+      echo "Latest block is: $lastblock"
 fi
    if [ "$2" = "validate" ]; then
       echo "Validating..."
@@ -95,6 +94,5 @@ fi
 
 
 if [ "$1" = "previous" ]; then
-   echo "Previous block is:"
-   echo "$prevblock"
+   echo "Previous block is: $prevblock"
 fi

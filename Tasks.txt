@@ -1,4 +1,3 @@
-- Validate (3/4) if first block matches in genesis block
 - Check if there's new block to generate (by fetching from GitHub the latest release tag), if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
 - At checking version, display two - app and this commonchain, if it is identified
 - Check this commonchain type (also contain gitrepo if type is github-releases) and firstblock

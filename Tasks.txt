@@ -1,5 +1,6 @@
-- Check if there's new block to generate (by fetching from GitHub the latest release tag), if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
+- Check if there's new block to generate (by fetching from GitHub the latest release tag vs. latest block's "tag"), if yes then generate (latestblock number+1) then CID the latest block that now will be previous block (and add fileURL+CID)
 
+- Install system-wide
 - Wizard to create a new commonchain (stored in /home/.commonchain, folder named with 0.json CID)
 
 - At checking version, display two - app and this commonchain, if it is identified

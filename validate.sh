@@ -2,7 +2,7 @@
 
       echo "Validating..."
       echo "[1/4] Fresh URL vs. latest block's URL:"
-      filename=$(jq -r '.fileprefix' 0.json)$releasetag$(jq -r '.filesufix' 0.json)
+      filename=$(jq -r '.fileprefix' 0.json)$lastblocktag$(jq -r '.filesufix' 0.json)
       freshurl="https://github.com/"$gitrepo"/releases/download/"$lastblocktag"/"$filename
       echo "$lastblocktag"
       if [ "$(jq -r '.url' $lastblock.json)" = "$freshurl" ]; then

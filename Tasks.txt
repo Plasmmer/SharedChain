@@ -1,12 +1,14 @@
-- Install system-wide
-- Wizard to create a new commonchain (stored in /home/.commonchain, folder named with 0.json CID)
-
 - At checking version, display two - app and this commonchain, if it is identified
 - Check this commonchain type (also contain gitrepo if type is github-releases) and firstblock
+
+- Install system-wide
+- Wizard to create a new commonchain (stored in /home/.commonchain, folder named with 0.json CID)
 
 gitrepo="wealdtech/ethereal"
 https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-amd64.tar.gz
 https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-arm64.tar.gz
+
+- Init service for periodicaly running check.sh
 
 gitrepo="ipfs/go-ipfs"
 https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz
@@ -18,3 +20,7 @@ https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_li
 - From latest block, traverse into previous blocks (optionally, to fully validate)
 
 - With ETH adress, sign if this address has been compromised and tell frnds
+
+- Validate comparing with trusted DAOs' ENS (genesis and latest blocks)
+
+- Prevent updating when it wasn't checked for more than a day and there are previous blocks missing

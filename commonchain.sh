@@ -40,6 +40,9 @@ if [ "$1" = "latest" ]; then
    if [ "$2" = "" ]; then
       echo "Latest block is: $lastblock"
 fi
+   if [ "$2" = "--plain" ]; then
+      echo "$lastblock"
+fi
    if [ "$2" = "validate" ]; then
       echo "Validating..."
       echo "[1/4] Fresh URL vs. latest block's URL:"
@@ -94,5 +97,10 @@ fi
 
 
 if [ "$1" = "previous" ]; then
-   echo "Previous block is: $prevblock"
+   if [ "$2" = "" ]; then
+      echo "Previous block is: $prevblock"
+fi
+   if [ "$2" = "--plain" ]; then
+      echo "$prevblock"
+fi
 fi

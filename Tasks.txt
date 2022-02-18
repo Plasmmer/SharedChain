@@ -1,6 +1,10 @@
 init in folder + list commonchains
 no need to detect if file exist to append
 
+BrightID validators (uses reputation instead of tokens)
+
+CommonPoint is a precursor to OmniLink
+
 kinds of commonchain: github, urlsh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh QmVoGaTVUVzgHEwyyiKsYcQG36AFZezb1kvGEFPwYsyN92
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" Qmf1XqY9vjU1yHDwEPj3hFBWJqtwGeUyoWPR77kYA7f65D
@@ -65,6 +69,13 @@ Every commonchain watches for a specific release file (for example, every go-ipf
 At every new release, CommonChain receives the latest tag, downloads the file (such as go-ipfs_*_linux-amd64.tar.gz), verifies its CID, and stores all the infos (URL, CID, previous block) in a newly generated block.
 --
 go-ipfs, files, ipld, multihash
+
+CommC
+https://addons.mozilla.org/firefox/downloads/file/3701081/ublock_origin-1.32.4-an+fx.xpi
+
+CommonBytes+CommonChain for UniStore:
+Instead of serving/downloading a whole XPI/APK file, use its internal files that are linked (OmniLink) with the bundle/package.
+(input/output)
 
 Next challenges:
 dl yt vd and verify with CommonPoint. When hash changes, turn into CommonChain.

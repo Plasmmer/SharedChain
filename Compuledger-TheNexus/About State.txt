@@ -1,0 +1,1 @@
+Two blockchain modes: use Polygon for faster data and Compuledger's own functions for stateful data

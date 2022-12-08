@@ -1,0 +1,9 @@
+- Decouples from IPFS gh releases (agnostic)
+- Cmmnchains directory
+
+CmmnChain fixes: https://archive.md/Oerhf
+
+- WebArchive Witnesses: use CommonChain for decentralizing NFTs and their data (such as imgs on Google)
+- UniStore CommonChain Electron: extract an app and publish
+
+- OmniLink/CommonChain for CRX <> Extracted (usable on CommonBits' input/output)

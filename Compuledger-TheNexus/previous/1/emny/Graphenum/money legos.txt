@@ -1,0 +1,15 @@
+- DAICOs from DAOs
+- Keep .bit domains renewed using donations to a DAO (HARD, peers should be trusted to have NMC privkey, unless a ZK-like technique is used)
+- Distributed SMS/email servers for Argent
+- Use Siacoin's proof-of-storage to receive coins/tokens for seeding torrents/others
+- (Useful) Joke: turn Ethereum into a layer2 on top of Bitcoin and about BTCs lack of innovation
+- Improve FIAT support in Bisq
+- Pay bills, refill phone, send int. money to any account, lookup docs and plats
+- Link bank accounts/transactions and support stock trading, and even swapping stocks with coins and tokens
+- Buy crypto even with prepaid card
+- Buy in any site which supports FIAT, using coins and tokens
+- Stake Bitcoin and other cryptocurrencies
+- BitUniverse bridges Decentraland, CryptoVoxels and TheSandbox (could also support AxieInfinity lands)
+
+The most stable currency:
+Peg to gold's ATH. See actual value and compare vs. ATH, adjust value to match that against fluctuations

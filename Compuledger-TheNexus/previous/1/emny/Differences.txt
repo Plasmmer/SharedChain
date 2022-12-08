@@ -1,0 +1,4 @@
+- Micro-fees for complex operations without waiting
+- Scalable yet decentralized/secure (no trillema)
+- No obscurity in consensus
+- Be a full node while rn

@@ -1,0 +1,192 @@
+- phone/others/PokeSynch
+- salgat@salgat.net https://app.ens.domains/name/salgat.eth/register http://salgat.net/ https://github.com/Salgat/GameBoyEmulator-GBS https://github.com/Salgat/PokeSynch https://news.ycombinator.com/item?id=30310002 https://github.com/Salgat/BubbleGrow/wiki/Building-from-source
+- https://www.publish0x.com/debank/the-next-step-of-nfts-blockchain-and-play-to-earn-emulators-xndypd
+- 2nd article, with full-human-explaining purpose of the fckn blockchain and interview with Salgat
+- Rebase to JS source, for multi-platform
+- Login with Creammy+Graphenum testnets
+- Prevent multiple accounts from same user
+- Integrate with Floflis YN
+- Choose Boy (Red) or Girl (Blue) character, register in Graphenum to be portable to GSC
+- Use test .sav files with different progresses
+- Use different Creammy's layers: walking, battles
+- As a start for children, start with Poké Yellow in native language
+- Remove "Save" from menu
+- Menu option to undo recent actions, such as battling to bottom-screen NPCs instead of opening start menu
+- Add Oak's parcel as temporary NFT in Graphenum
+- Add starter pokémon as NFT in Graphenum
+- Identify wild battles, validate encounter in Creammy's rules
+- When choosing an attack, sign it to Creammy (both wild, NPC and peer battles)
+- Validate earned EXP, add to Creammy
+- Validate HP/PP loss and PokémonCenter restore, add to Creammy
+- Validate earned ¥, add as token in Graphenum
+- Validate earned item (also the hiddens such as the potion in tree at Viridian City), add to Creammy from its rules, add as Enjin-like NFT in Graphenum
+- Validate capture, add Pokémon as NFT in Graphenum
+- NFTs sprite according to the game (G, RB, Y and future games) and update according to transport
+- Update Pikachu's feelings to its NFT
+- When trading pokémons (peer and also NPC), also do it with NFTs in Graphenum
+- Validate earning badges through validated battles, add badges as locked NFTs in Graphenum
+- Support USB, bluetooth, infrared, WiFi and NFC to peer communicate
+- Validate battles and traded pokémons behavior based in owned badges
+- Validate rematch of NPCs
+- Validate earned pokémon (Celadon's Eevee), add as NFT in Graphenum
+- When validating EXP, consider the ExpShare keyItem, add to Creammy
+- Prevent hi-speed walking and validate bicycle
+- In PokéMart, don't use native ¥ prices when selling items, but get them from ZapSwap, and update in Graphenum
+- Form a Team to explore the game
+- Hangout Square at Viridian, for bringing own Team hangout
+- At Hangout Square, have a trading marketplace and assets exchange in a big Dept. Store
+- As of Creammy rules, don't repeat events such as S.S. Anne
+- Validate potion use, softboiled and revive item, add to Creammy
+- Validate PayDay attack, add to Creammy, sync to Graphenum
+- Validate pokécasino plays, add to Creammy, sync to Graphenum
+- Validate pokécasino coins, add to Graphenum
+- Don't use native exchange of ¥ and pokécasino coins, but ZapSwap
+- Validate pokémons bought at casino, add as NFTs to Graphenum
+- Validate legendary encounters (Creammy rule is not repeat if already catch it), add as NFTs in Graphenum
+- Validate the pokefly glitch to catch Mew and other possible pokémons, use a list as rule in Creammy
+- Validate against walk-through-walls tricks, for example catching Mewtwo without winning the PokéLeague
+- Validate pokémuseum spending
+- Validate pokéfossils restore using Creammy's rules, add as NFTs in Graphenum
+- Validate PokéSafari time and battles using Creammy, add as NFTs to Graphenum (get safari balls/bait/boulders as NFTs and return them to contract)
+- Validate PokéLeague records
+- Official tutorial to catch a safe Missingno without gameshark, validate it with Creammy and add as NFT to Graphenum
+- Open-world mode with neighbor islands (integrate with BitUniverse but 2D) and high-valuable $100 spots at Kanto, buy construction items, can also construct edifications
+- Supported games: R/G/B/Y
+- Open-source mission: explore disassemblies and open data, and create compillable human-readable source-codes with a common bridge for GB games in .eventz
+- Base for developing front layers compatible with ElectroEmulator
+- Open-source GameBoy replic with built-in Floflis Gamer edition, ElectroEmulator and Internet
+- Open-source accessory to turn phone into GameBoy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Start supporting G/S/C
+- Port player data, such as name, gender and money
+- TimeCapsule: get old pokémons directly from RGBY instead of gamelink
+- Support RealTimeClock
+- Update cured pokémons (pokecenter or Elm lab) in NFTs, dont update if user tries to cheat (quickly removing energy from pokemon or fake use of pokecenter, so use Creammy to validate)
+- Validate Lab's received potions and pokéballs
+- Travel feature: return to RGBY games with desired pokémons (without the new pokémons and follow official rules) to complete pending quests
+- Divide items using Graphene folders
+- New open-source project: N64 and GBA sub-emulators
+- Validate pokérus
+- Validate received pokémon, such as Eevee
+- Validate shiny methods and other tricks/methods, and do the same for next titles
+- Unlimited contacts at PokéGear, and integrate with Floflis and know which ones are also players and prioritize
+- Update pokémon's NFTs with held items and their own data such as mail's letters
+- Validate mail-holding gift pokémons, add letters as temporary NFTs.
+- NPCs mails arent encrypted, but letters from players can be encrypted and sent as NFTs
+- Support pokécasino as in RGBY
+- Validate pokésallon spending and time
+- Validate time and battles in poképark, add as NFTs (including prizes) to Graphenum
+- Breeding now asks for a fee and incenses (dont be like unfair markets such as CryptoKitties and Axie)
+- Validate breeding and its randomness (surpass PoolTogether on that) using Creammy, add as NFT to Graphenum (egg phase and pokémon), validate hatch time and steps using Creammy
+- Validate Kurt's pokéball manufacturing
+- Open-world mode with neighbor islands (integrate with BitUniverse but 2D) and spots at Johto, buy construction items, can also construct edifications
+- Open-source task: port to Rust
+- When traveling to Kanto, support same data from previous games
+- Support legendary encounters (including Shiny Gyarados) as in RGBY, but special with PokéCrystal with real-time map using Creammy
+- Official events, such as Celebi
+=
+- Start supporting GBA: R/S/E
+- Port player data
+- Fidedign convert of past generation pokémons
+- Travel feature: return to past games with desired pokémons (without the new pokémons and follow official rules) to complete pending quests. But new: use seas and have three versions of Kanto to choose, which also will be implemented in GSC to support new pokémon in old region (except Hoenn > Johto, but Hoenn/Johto > Kanto). Port RGBY events to GSC and GBA!
+- Start supporting FR/LG, simutaneously developed with RSE
+- Support same features as of previous games according to our Features Base essay) and same for the next games
+- Open-source projects: GC, NDS, PokéWalker and Wii sub-emulators
+- Prevent hi-speed walking and validate shoes and bicycle
+- Validate berry planting
+- Validate berry cooking
+- Validate contests and store ribbons as NFTs
+- Validate player's secret base and items and add as NFTs. User can sell his secret base.
+- Validate pokésafari (get safari balls as NFTs and return them to contract)
+- Validate breeding
+- Open-source mission: explore disassemblies and open data, and create compillable human-readable source-codes with a common bridge for GBA games in .eventz
+- Base for developing front layers compatible with ElectroEmulator
+- Open-source GBA replic with built-in Floflis Gamer edition, ElectroEmulator and Internet
+- Open-source accessory to turn phone into GBA
+- Open-world mode with neighbor islands and spots at Hoenn
+- Official events, and same for next titles
+
+
+
+
+
+Start supporting NDS: D/P/P
+- Import player data and travel to past games
+- Validate berry planting
+- Validate poffin cooking
+- Validate subway mining (old feature unleashing a brand new way for play-to-earn by literally mining)
+- Open-source projects: 3DS, WiiU and Pokémon Go and Switch sub-emulators
+- Open-source mission: explore disassemblies and open data, and create compillable human-readable source-codes with a common bridge for NDS games in .eventz
+- Base for developing front layers compatible with ElectroEmulator
+- Open-source effort: make PointBlank compatible with WINE and work in compatibility with anticheat to validate in Creammy and store data in Graphenum. Also do it for other games.
+- Open-source NDS replic with built-in Floflis Gamer edition, ElectroEmulator and Internet
+- Open-source accessory to turn phone into NDS
+- Implement the follower pokémons from HGSS and store as player data (or from square)
+- Open-world mode with neighbor islands and spots at Sinnoh
+=
+- Start supporting HG/SS
+- Now it supports four versions of Kanto, synced: RGBY, GSC, FR/LG, HG/SS
+- Can travel to Sinnoh
+- Validate pokéathlon
+=
+- Start supporting B/W/B2/W2
+- Open-source 3DS replic with built-in Floflis Gamer edition, ElectroEmulator and Internet
+- Open-source accessory to turn phone into 3DS
+- Implement follower pokémons
+- Open-world mode with neighbor islands and spots at Unova
+=
+- Start supporting 3DS: X/Y
+- Validate shiny methods
+- Validate pokéamie
+- Open-source Switch replic with built-in Floflis Gamer edition, ElectroEmulator and Internet
+- Open-source accessory to turn phone into Switch
+- Open-world mode with neighbor islands and spots at Kalos
+=
+- Start supporting S/M/US/UM
+- Validate challenges
+- Open-world mode with neighbor islands and spots at Alola
+=
+- Start supporting Switch: LGE/LGP
+- Now it is 5 synced versions of Kanto
+- Validate Pokémon Go battle style
+- Support getting from Pokémon Go and add as NFTs
+=
+- Start supporting S/S
+- Validate gym battles as in other titles
+- Implement follower pokémons from LGE/LGP
+
+
+
+
+
+
+
+
+
+
+
+
+- Start supporting Atari
+- Games: 30 Activision, Pacman
+- Start supporting NES
+- Games: SMB 1/2/3, Pacman, Kirby
+- Start supporting SNES
+- Games: SMB 1/2, Kong 1/2/3, Aldn, Msk, Lmbrgn
+- Start supporting Playstation
+- Games: Spdrmn 1/2, Rhl Fshng, Tst Drv 4, T St rcng, Crsh 1/2/3 and rcng

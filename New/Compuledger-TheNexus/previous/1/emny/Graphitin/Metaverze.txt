@@ -1,0 +1,39 @@
+- Base: Minetest
+- Graphenum+Creammy addons
+- Main lang: E
+- World minting and size will happen according to amount of users in join queue. But users can avoid this queue by joining other worlds with land available to claim, rent or buy
+- According to emo, prioritize most distant users to mint a world
+- For every minted world, 5 wild world will be minted where users cant claim lands (but can harvest resources - will need anti-bot/spam)
+- Some principles from "real-value Minecraft" essay
+- About sea and islands
+- If a male joins, 2 female needs to join before other male join (can't fake)
+- User's first+free land size will depend on his merits, including SourceCred. Creativity is the most considered
+- Users are free to have more than 1 land and pay according to size
+- P2P servers addon
+- Users cant destroy or build in other's claimed territory (existing addon)
+- When placing construction blocks around animals or place, ownership is instantly claimed, except in foreign worlds (addon)
+- User can only have a main land which is on its first world, with a bed which can only be at this land (addon)
+- Can leave non-construction blocks in other's territories (addon)
+- Can give temp or perma ownership of territories, even specific blocks above other claimed blocks, and support smart-contracts for trustless negotiations (addon)
+- Import DANIMESQ and HN worlds
+- Communicate with voice (existing addon + compatibility with P2P servers addon)
+- Show user face (addon)
+- Place NFTs and they will have own form and behavior (addon)
+- Own currency (addon for using it)
+- Buy/sell NFTs for currency
+- Economy (edited addon for compability with Ethereum e and tokens)
+- Place Ethereum and tokens as blocks (addon)
+- Send ETH/tokens to users (addon)
+- Sell NFTs for ETH/tokens and use OpenSea APIs (addon)
+- Mobs appearing at night (better than Minecraft) and destroyed items can be claimed (addon)
+- Camera for photos/videos (addon)
+- Read papers/books (addon)
+- Video teather block (addon)
+- TV cast of videos or cameras live broadcasting (addon)
+- Sport (addon)
+- FPS (existing addon?)
+- Chroma key for camera (edit addon)
+- Integrate TV with NeTVision
+- Graphenum supports sync of tokens/NFTs, appearing in different places but avoiding double-spent
+- Beyond NFTs, tokenize diamond, gold, silver and other items
+- Integrate social networks

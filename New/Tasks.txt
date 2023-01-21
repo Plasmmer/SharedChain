@@ -1,0 +1,82 @@
+init in folder + list commonchains
+no need to detect if file exist to append
+
+BrightID validators (uses reputation instead of tokens)
+
+CommonPoint is a precursor to OmniLink
+
+kinds of commonchain: github, urlsh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh QmVoGaTVUVzgHEwyyiKsYcQG36AFZezb1kvGEFPwYsyN92
+sh -c "$(curl -fsSL https://starship.rs/install.sh)" Qmf1XqY9vjU1yHDwEPj3hFBWJqtwGeUyoWPR77kYA7f65D
+sh <(curl -L https://nixos.org/nix/install) –no-daemon QmX5Jp4JtCSjaKj1efdaT31dRZiivGKz6qf3kHoCKRb2W4
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash QmPcQV6uQvAH5nESBhRX1B4kXgdcSNCxt1ivFVy5bgiMJs
+
+if commonchain type is github, support more than 1 release files
+
+gitrepo="ipfs/go-ipfs"
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-386.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/go-ipfs_$releasetag_linux-arm64.tar.gz
+
+- At checking version, display two - app and this commonchain, if it is identified
+- Check this commonchain type (also contain gitrepo if type is github-releases) and firstblock
+
+- Install system-wide
+- Wizard to create a new commonchain (stored in /home/.commonchain, folder named with 0.json CID)
+
+gitrepo="wealdtech/ethereal"
+https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-amd64.tar.gz
+https://github.com/$gitrepo/releases/download/$releasetag/ethereal-$releasetagnov-linux-arm64.tar.gz
+
+gitrepo="ipfs/ipfs-desktop"
+https://github.com/$gitrepo/releases/download/$releasetag/ipfs-desktop-$releasetagnov-linux-amd64.deb
+https://github.com/$gitrepo/releases/download/$releasetag/ipfs-desktop-$releasetagnov-linux-x64.tar.xz
+
+gitrepo="floating/frame"
+https://github.com/$gitrepo/releases/download/$releasetag/frame_$releasetagnov_amd64.deb
+
+gitrepo="godotengine/godot"
+https://github.com/$gitrepo/releases/download/$releasetag/Godot_v$releasetag_x11.32.zip
+https://github.com/$gitrepo/releases/download/$releasetag/Godot_v$releasetag_x11.64.zip
+
+gitrepo="nushell/nushell"
+https://github.com/$gitrepo/releases/download/$releasetag/nu_0_40_0_linux.tar.gz (have to replace "." to "_" in $releasetag)
+
+gitrepo="johnnesky/beepbox"
+https://github.com/$gitrepo/releases/download/$releasetag/BeepBox_4_0_1.zip (have to replace "." to "_" in $releasetag)
+
+- Init service for periodicaly running check.sh
+
+https://github.com/gohugoio/hugo/releases
+https://geth.ethereum.org/downloads/
+
+- Option to pin file
+
+- From latest block, traverse into previous blocks (optionally, to fully validate)
+
+- With ETH adress, sign if this address has been compromised and tell frnds
+
+- Validate comparing with trusted DAOs' ENS (genesis and latest blocks)
+
+- Prevent updating when it wasn't checked for more than a day and there are previous blocks missing
+
+Lch:
+https://discuss.ipfs.io/
+Are you ready for the next IPFS release? CommonChain are.
+--
+Every commonchain watches for a specific release file (for example, every go-ipfs_*_linux-amd64.tar.gz).
+-
+At every new release, CommonChain receives the latest tag, downloads the file (such as go-ipfs_*_linux-amd64.tar.gz), verifies its CID, and stores all the infos (URL, CID, previous block) in a newly generated block.
+--
+go-ipfs, files, ipld, multihash
+
+CommC
+https://addons.mozilla.org/firefox/downloads/file/3701081/ublock_origin-1.32.4-an+fx.xpi
+
+CommonBytes+CommonChain for UniStore:
+Instead of serving/downloading a whole XPI/APK file, use its internal files that are linked (OmniLink) with the bundle/package.
+(input/output)
+
+Next challenges:
+dl yt vd and verify with CommonPoint. When hash changes, turn into CommonChain.
+CommonPoint for NFTs

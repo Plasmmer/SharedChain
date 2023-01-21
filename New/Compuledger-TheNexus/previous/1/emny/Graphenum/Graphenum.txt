@@ -1,0 +1,39 @@
+Don't use git because of speed and security. Pijul could be considered, but better having its own, based in a broader principle of the CommonChain. How to process 12 TPS? 1000 TPS is too much for comm? Pubsub will be quick and coherent to know the exact order of transactions without fake timestamps and holes for double-spend? No, cant pair every Graphenum transaction on e's transactions, but since now prepare for Creammy layer-3.
+- The only solution for that, instead of relying on CommonChain: own e bc, but should evaluate the speed, even more for Creammy, but Creammy can have 1 bc for every dapp. Better for speed and scalability: every dapp having its own CommonChain, then being all jointed and stored hash in Graphenum, but it also implies security as only one kind of user would have the privilege to do so. Intercomm transactions without burdening each bc.
+New idea: yes, use own e bc, and use gas from it instead of from e, and create a batch with user's transactions till it is signed+stored in a e transaction
+
+- Contracts can store coins and tokens as an normal address (consult tBTC and Bisq)
+- Coins are used as gas (consult GasToken)
+- Contracts stores coins as tokens. Math for liquidity, so users can withdraw coins from contracts (consult UniSwap, Kyber, 1inch)
+- When users needs to deposit to contracts, it sends tokens for who needs to withdraw. Also, gas comes both to liquidity providers and withdrawers (consult GasToken, 1inch)
+- ZapSwap begins, for coins and their wrapped tokens (consult 1inch, Bisq)
+- Smart-contract condition: time (by blocks or timestamp)
+- Smart-contract action: lock coins
+- Contract fees, which goes to specific funds such as open-source
+- Smart-contract action: unlock/authorize user coin amount to be spent (shouldnt be confusing as in Ethereum, with contracts identified as apps)
+- Pnsh peers which spams and/or runs with funds
+- Smart-contract condition: when receive specific token(s) (and from specific address(es))
+- Smart-contract action: mint token(s), and can execute this function from different contracts as every token haves its own contract
+- Smart-contracts: store any cryptocurrency supported by Bisq, as wrapper tokens, using same liquidity math of native coin
+- Smart-contracts: support send, receive and swaps using Bisq
+- Merge liquidity of coin, ZapSwap and Bisq
+- Less programming possibilities, more simplicity, more security; and even have more diverse money legos than Ethereum
+- timecapsuled tokens: if cmm doesnt have enough liquidity, mint these redeemable tokens
+- Enable contracts such as DeFiZAP
+- How do a contract signs a message without disclosing its privatekey? ZK snarks?
+- Lock assets in a contract without conditions, against hacks. A unique contract/account can inherit other contracts/accounts (authorized by such) and display all their hist and assets.
+- Can do operations using QR as main address
+- OmniLink: associate content with CID/BT hash and QR address
+- Morph coins/tokens in a sequence of transactions like in Stellar
+- API/ABI for communicating with Ethereum contracts, for example, considering WBTC/tBTC as Bitcoin (do it for all other wrapper tokens). A good use is swapping ETH/tBTC at UniSwap and receiving an real Bitcoin
+=
+MIPs
+=
+Prtners:
+- SSB (securing of data, finance services) EASY | pull-request
+- Dat (integration in Beaker, securing of data, finance services) - HARD | fork
+- IPFS+Filecoin (securing of data, smart-contracts) - MEDIUM | layer
+- Torless ZN (securing of data, finance services) - MEDIUM | plugin, fork
+- Siacoin - MEDIUM | layer
+- DTube/HIVE dapps | HARD | fork
+winners: SSB, IPFS+Filecoin, Siacoin

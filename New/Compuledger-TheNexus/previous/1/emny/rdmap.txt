@@ -1,0 +1,92 @@
+Core
+- emo core
+- Explainer of how decent it is compared to others
+
+Substratum
+- 0x operations (.json, which includes dynamic status after)
+- parallel bc for non-mbs
+- Pnsh users which msnhv
+
+Pando
+- intercom txs
+- fees for gnrl fnd
+
+Antbase
+- Print as physical notes with QR codes, scan to unlock pay and the merchants also scans
+- Bnts
+- Support Lend/Borrow (with Compound-like interest)
+- MeKey hardware wallet
+- ATMs
+
+Comfort
+- web4.js, CryptoWallet browser extension
+- PoS; paired cold bc stores qhash of txs (prvnt dcttrshp-f-cmmns), also have a parallel by dstnc
+- Map of bcs and their comparisons
+
+Inky
+- Graphenum, supporting basic .eventz (daily cmmnchn snpshts for emo (with own ident for that), nfrced by cold bc), contracts have categories/icon/other info
+- Graphenum supports NFT contracts, including semi-fungible tokens (and z UI)
+- Assistant for tokenization of Open Badges
+- Graphenum z UI: support copyrights
+
+Birddy
+- ChainLink price feed for ETH/USD
+- Value external assets; Graphenum supports token contracts (and z UI)
+- User's reputation token
+- Graphenum's z UI supports prsltk
+- emo wrapped in ETH using collateral on incentivized pools as part of PoS
+- Exchange using Bisq (show full path, eg. emo > eth > coin; as Omni isn't flly mplmntd)
+
+Multiverse
+- ChainLink price feeds for BTC, Waves, EOS, Q, UTN, Tron, Polkadot, Cosmos and Steem/HIVE
+- Generate tBTC with Bitcoin
+- Graphenum uses Omni for transferring emo/NFTs/tokens between ETH, BTC (tBTC), Waves, EOS, Q, UTN, Tron, Polkadot, Cosmos and Steem/HIVE
+- Sync reputation tokens in other bcs
+- Improve Exchange, use Waves/Loopring for speedy exchange
+
+Usability
+- Graphenum: support organizing tokens and NFTs in folders, and these folders can also be NFTs such as a badge case
+- Buy using any coin/token and get it swapped to purchase at OpenBazaar (Bisq network)
+
+Collectibility
+- OpenBazaar supports emo and NFTs
+- Graphenum: implement SNFT contracts (product ownership NFTs) also in z UI (includes semi-fungible tokens)
+
+Parallelity
+- eUSD: evolution of DOLL, but only burn centr. pegs when collateralized, which is also part of PoS, and use ChainLink price feed
+- Wormhole: use ChainSafeth and parallel smart-contracts in different bcs
+- Introduce FIAT-interacting contracts, using Bisq (wrapped tokens, and USD is 1:1 tradeable with eUSD)
+
+Antguild
+- .eventz supports voting using tokens or own acc as 1:1
+- DAOs framework based in Aragon, Moloch and Aut/DISCOS
+- Implement AddressTower as DAO and enable user to register name (every address can have its own human-friendly address)
+- DAOs can store value (tokens, NFTs)
+- DAOs can interact with one another and with dapps (fully programmable using .eventz)
+- DAOs can install apps, which can get Mithril elements of existing dapps (also listed in UniStore)
+
+Creamity
+- Creammy, with shards and fastest, also with its own paired cold bcs as glue for shards; plus, different layers for a shard (player walks, battles)
+- Creammy: supports trustworthy media views count and "subscribe" (tune-in) button
+- Creammy: supports ads pltfms with prints, views/clicks, engagement
+- Graphenum: do contract actions according to conditions from Creammy
+
+Gamechain
+- Creammy log: "player move from X0 to X50 in 15 seconds" and validate space to prvnt WTW
+- Creammy validation: space and item's positions
+- Creammy: anti-bot
+- Creammy's randomness: mix with ChainLink,  choose most distant peers, and this in actions ticker
+- Creammy: ElectroEmulator
+
+Convergence
+- Support TheGraph; Peepeth's Enso and Peepstreak as tokens
+- OmniLink: user's verified addresses (includes email which have 6 phases)
+- Assistant for tokenization of Open Badges: no need for issuer work, directly verify email
+
+Accessibility
+- SMS/call <> smart-contract oracles
+- Chargeable "9090" SMS/call when paying cryptocurrencies, enabling user to restore Internet even without credits
+- Payment API with "CNPJ" (registered business as peers) and pnsh card chargeback
+
+Abyssality
+- Abyssal bc, for prtct Polkadot, Cosmos, EOS, Steem/HIVE and others

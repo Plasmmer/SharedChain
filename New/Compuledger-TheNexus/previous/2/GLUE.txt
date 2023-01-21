@@ -1,0 +1,47 @@
+Compuledger
+- Unit: $COM
+- DDNs - Dcntr Dmcrt Nts (the solution against crypto anarchy/neoliberalism)
+- Constitution
+- Use .sh for smart-contracts
+- Accounts work like smart-contracts, and can have inbox and spam box for tokens and NFTs
+- Sharding
+- Validate a month, prg previous (can decrease to bi-week or week according to demand)
+
+Creammy
+- Lock AXS, SLP and ETH on Ronin,
+get GAXS, GSLP, and GETH on Glue
+- Transfer GAXS, GSLP, and GETH from Glue to XDai and back (to Glue or Ronin)
+- Transfer GAXS, GSLP, and GETH to Ethereum (from Glue, Ronin or XDai) with a special trick, directly using Ronin to transfer L2 > L1
+- Transfer AXS, SLP and ETH to Ronin, or directly to Glue
+- Transfer XDai bridged tokens back to Ethereum
+- Transfer tokens from Ethereum to XDai and back
+- Transfer tokens from Ethereum to Glue and back
+
+GLUE - optimisticalRollup and crosschain solution - mix between Optimism and Polkadot/Cosmos
+- BrightID as main account (not using keypairs), connct with IDX (ID) + Circles (WoT+Sybil/Byzant resist) (IDX and Circles use Ethereum/XDai)
+- Wrap ETH > GETH
+- Send GETH to other GLUE accts
+- Sidechains for GLUE regions
+- Centralized and decentralized validators in different layers, tackling scaling/speed+security
+- Validators earns GLUE
+- Send GETH on Bitcoin
+- Sidechains for Ethereum and Bitcoin
+
+- Smart-contracts (comp is on GLUE and data is on Ethereum/Bitcoin - EVM-compatible API)
+
+- Wrap NFTs, use on Bitcoin
+
+- Wrap BTC using TBTC>GBTC
+- Send GBTC to other GLUE accts
+- Send GBTC on Ethereum
+
+- Use OmniLink for tracking XDAI/IDC bridged tokens from ETH (also list their exchanges)
+- Use OmniLink for tracking XDAI bridged NFTs (POAP)
+
+grphn
+- Sibling of SharedChain
+- Secured by ETH+IDChain
+- Free to move from IDChain
+- Nodes/validators have the responsibility of their reputation/identity
+- Servers can start an centralized, upgradeable sidechain (with rules to be validated and functions/conditions/actions)
+- Use C instead of Eidi for gas fees

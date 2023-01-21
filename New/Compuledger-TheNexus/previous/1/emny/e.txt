@@ -1,0 +1,9 @@
+- Integrate with BrightID
+
+0x operations:
+- relocate
+- exchange
+- warn
+
+- 1person1vote: elect workers and vote proposals. workers can take fees as a gov and need to do provable public services
+- Local machines, such as paper-recycler and salt-water>fresh-water

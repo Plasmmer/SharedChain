@@ -1,0 +1,6 @@
+The full state/txs of other blockchains can be plugged and validated by Compuledger's own validators
+
+- Bitcoin
+- Ethereum
+- Cosmos
+- Polkadot

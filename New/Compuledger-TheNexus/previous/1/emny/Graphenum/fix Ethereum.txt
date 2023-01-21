@@ -1,0 +1,8 @@
+- No entry support (gas, earnings - built-in)
+- BAT (centralized - own mechanisms for verifying user interaction/attention, also usable for counting videos views and channel subscribers)
+- Aragon's DAOs (high fees - built-in but need to know how sign without privatekey)
+- MakerDAO (centralized)
+- Agnt (gasless entry but closed - built-in)
+- Axie (closed and low p2e payments - BitUniverse, ElectroEmulator)
+- Gas market (sometimes high fees - GasToken)
+- UniSwap (unfair pool distribution - ZapSwap)

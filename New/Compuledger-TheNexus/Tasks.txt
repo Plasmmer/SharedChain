@@ -1,0 +1,9 @@
+instead of using addresses, use usernames
+"void" user as "0x0...0"; Compuledger's developers can decide to hard fork to take something out the void; this is also the address that mint tokens/NFTs
+LED as network's token for gas
+use IPFS hash for txs
+deduplicate data of a tx in the very tx
+weekly deduplication, which requires re-orging but secured by the main log
+support to commits, where a tx only adds a diffing to another tx (these should be taken in account with care, by the weekly deduplication)
+secure eth proofs on bitcoin, and bitcoin proofs on eth (call these crossproofs as ViceVersa)
+dl bitcoin blockchain and others, but deduplicate while maintaining the merkletree's hashes; offer gas refunds in GLUE's native tokens covering the costs of dupliced data

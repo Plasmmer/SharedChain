@@ -1,0 +1,10 @@
+Phases:
+
+Quickstart
+- Launch test pilot. Initially, the project will be called Silvertape, with the GLUE token
+- Crowdsale of the GLUE token (purchaseable with BTC, ETH and most stablecoins/tokens that will be converted in Uniswap to the required PLA+FLOF amount)
+
+BrilliantBranding
+- purchase the Compuledger LLC IT company
+- transform Compuledger LLC into The Compuledger Foundation (synced with the LED DAO)
+- rename Silvertape to Compuledger and GLUE to LED

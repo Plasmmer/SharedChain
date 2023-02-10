@@ -1,0 +1,6 @@
+- Decentralized (not an "Ethereum-killer"), ensured by validators having a decentralized identity/proof-of-human (BrightID)
+- Scalable (data deduplication + purging at the core)
+- Fast (hybrid MerkleTree + DAG model - with three different kinds of virtual machines for each purpose - and sharding)
+- Permissionless permissioned (enforced by the LED DAO and being regulation-friendly while balancing with/respecting Bitcoin/Ethereum's bankless/no-intermediaries philophy)
+- Developer-friendly (LVM - Linux Virtual Machine - will support a lot of known programming languages, starting with Bash before supporting Python, Rust, JavaScript, etc)
+- Client diversity and development inclusiveness (the first and reference client will be written in Bash)

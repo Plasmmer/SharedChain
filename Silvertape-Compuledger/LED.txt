@@ -1,0 +1,3 @@
+LED will be formed by 50% PLA 50% FLOF
+
+While the major stake for doing a fair play at validating Compuledger is the validator's identity (BrightID + Sybil.org, Galxe, etc), LED will also have its own function for ensuring validators don't misbehave.

@@ -1,3 +1,7 @@
+fix current issues
+
+later purpose: templates. one of them is sharing pokemon mistery gift details (code, ETA) from trustworhy crowd sources
+
 init in folder + list commonchains
 no need to detect if file exist to append
 

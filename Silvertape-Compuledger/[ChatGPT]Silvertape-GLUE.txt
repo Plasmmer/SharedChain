@@ -1,0 +1,29 @@
+"Let's brainstorm about an Ethereum competitor.
+
+It should be initially called Silvertape, where the transaction fees will be in the GLUE tokens.
+
+This blockchain will be written in Bash rather than Go/Rust.
+
+It will use BrightID, usernames instead of privatekeys.
+
+Also, it will focus on data deduplication and data sharding."
+
+Interesting concept! Here are some potential ideas to consider for building Silvertape:
+
+1. Performance: As a Bash-based blockchain, there may be some performance limitations compared to those written in Go or Rust. It will be important to optimize the code and utilize any potential performance-boosting tools available.
+
+2. Smart Contract Languages: In addition to Solidity, which is the most popular smart contract language for Ethereum, it may be useful to support other languages such as Rust or Python to allow for greater flexibility and ease of use.
+
+3. Governance: A decentralized governance model can help to ensure that the community has a say in the direction of the blockchain. This can be achieved through a DAO (decentralized autonomous organization) or other similar mechanisms.
+
+4. Partnerships: Building partnerships with other blockchain projects or companies can help to increase the visibility and adoption of Silvertape. This could include working with exchanges, wallet providers, or other projects in the blockchain space.
+
+5. Security: Given the potential risks and vulnerabilities associated with any blockchain, it will be important to prioritize security and establish rigorous testing protocols to prevent any potential attacks or exploits.
+
+6. User Experience: BrightID and usernames can help to simplify the user experience and make it easier for users to interact with the blockchain. However, additional efforts may be needed to ensure that the blockchain is user-friendly and accessible to a wide range of users.
+
+7. Tokenomics: Designing an effective tokenomics model can help to incentivize participation in the network and drive demand for the GLUE token. This may include mechanisms such as staking, liquidity mining, or other reward programs.
+
+8. Scalability: Sharding and data deduplication are important tools for improving scalability and ensuring that the blockchain can handle a large number of transactions. Continued efforts will be needed to optimize these features and ensure that Silvertape can support a growing user base.
+
+These are just a few potential ideas to consider when building Silvertape. Ultimately, the success of any blockchain project will depend on a range of factors, including technical prowess, community support, and adoption by end-users.
